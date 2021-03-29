@@ -263,7 +263,7 @@ console.log(responses);
                
 
 
-{ isfacebookUserLoggedIn==true? <div style={{backgroundColor:'#ce0505',height:'50px',paddingTop:'3px'}}>
+{ isfacebookUserLoggedIn==true? <div style={{backgroundColor:'#ce0505',height:'50px',paddingTop:'3px'}} className="fixed-top">
                
                <div className=" pt-2 bg-white logo" style={{display:'inline-block',marginLeft:'37px'}} onClick={this.handleClick}><img src={image} className="rounded-circle" style={{marginTop:'-11px',marginRight:'1px',width:'49px'}}/></div>
                <div style={{display:'inline-block',float:'right'}} className="account mr-3 ml-3 rounded btn-outline-success">
@@ -290,7 +290,7 @@ console.log(responses);
             
             })
 
-            :isgoogleUserLoggedIn==true? <div style={{backgroundColor:'#ce0505',height:'50px',paddingTop:'3px'}} className="fixed-top">
+            :isgoogleUserLoggedIn==true? <div style={{backgroundColor:'#ce0505',height:'50px',paddingTop:'3px'}}>
                
             <div className=" pt-2 bg-white logo" style={{display:'inline-block',marginLeft:'37px'}} onClick={this.handleClick}><img src={image} className="rounded-circle" style={{marginTop:'-11px',marginRight:'1px',width:'49px'}}/></div>
             <div style={{display:'inline-block',float:'right'}} className="account mr-3 ml-3 rounded btn-outline-success">
